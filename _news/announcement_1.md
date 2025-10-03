@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper NARX modeling and simulation of heave dynamics with application of robust control of an underactuated underwater vehicle has been accepted to Ocean Engineering!
+Our paper “NARX Modeling and Simulation of Heave Dynamics with Application of Robust Control of an Underactuated Underwater Vehicle” got accepted and would appear in Volume 325 of Ocean Engineering.
