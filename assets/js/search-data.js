@@ -28,8 +28,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-narx-modeling-and-simulation-of-heave-dynamics-with-application-of-robust-control-of-an-underactuated-underwater-vehicle-has-been-accepted-to-ocean-engineering",
-          title: 'Our paper NARX modeling and simulation of heave dynamics with application of robust...',
+            },},{id: "news-our-paper-on-narx-modeling-and-simulation-of-heave-dynamics-with-application-of-robust-control-of-an-underactuated-underwater-vehicle-got-accepted-and-would-appear-in-volume-325-of-ocean-engineering",
+          title: 'Our paper on NARX Modeling and Simulation of Heave Dynamics with Application of...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-bio-to-robot-transfer-of-fish-sensorimotor-dynamics-via-interpretable-model-got-accepted-in-advanced-intelligent-systems",
+          title: 'Our paper on Bio-to-Robot Transfer of Fish Sensorimotor Dynamics via Interpretable Model got...',
           description: "",
           section: "News",},{id: "projects-thrust-vectoring-control",
           title: 'Thrust Vectoring Control',
