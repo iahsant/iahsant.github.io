@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on NARX Modeling and Simulation of Heave Dynamics with Application of Robust Control of an Underactuated Underwater Vehicle got accepted and would appear in Volume 325 of Ocean Engineering.
+Our latest paper on bio-to-robot transfer of fish sensorimotor dynamics via interpretable model was just accepted in Advanced Intelligent Systems.
