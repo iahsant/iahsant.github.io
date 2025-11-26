@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Our paper “Bio-to-Robot Transfer of Fish Sensorimotor Dynamics via Interpretable Model” got accepted in Advanced Intelligent Systems.
+Our paper on Bio-to-Robot Transfer of Fish Sensorimotor Dynamics via Interpretable Model got accepted in Advanced Intelligent Systems.
 
