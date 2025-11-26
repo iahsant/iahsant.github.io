@@ -17,5 +17,3 @@ Key contributions include:
 3. Demonstrating that fluidic actuation can generate effective control forces, enabling enhanced maneuverability without the complexity of movable surfaces.
 
 These studies highlighted the potential of FTV for next-generation UAVs, offering reduced mechanical complexity, stealth advantages, and adaptability in both conventional and unconventional flight regimes.
-
-{% endraw %}
