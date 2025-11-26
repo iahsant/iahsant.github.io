@@ -39,6 +39,11 @@ ninja.data = [{
           description: "Fluidic Thrust Vectoring Control of a Delta Wing UAV",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-underactuated-rov",
+          title: 'Underactuated ROV',
+          description: "Modeling and Control of an Underactuated ROV",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
