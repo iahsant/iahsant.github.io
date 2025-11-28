@@ -2,7 +2,7 @@
 layout: page
 title: Underactuated ROV
 description: Modeling and Control of an Underactuated ROV
-img: assets/img/ftv1.PNG
+img: assets/img/ftv1.png
 importance: 2
 category: work
 related_publications: true
