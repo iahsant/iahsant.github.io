@@ -2,7 +2,7 @@
 layout: page
 title: Thrust Vectoring Control
 description: Fluidic Thrust Vectoring Control of a Delta Wing UAV
-img: assets/img/ftv1.PNG
+img: assets/img/ftv1.png
 importance: 1
 category: work
 related_publications: true
