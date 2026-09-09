@@ -3,91 +3,144 @@
   contents:
     - name: Full Name
       value: Ahsan Tanveer
+    - name: Affiliation
+      value: Intelligent Biomimetic Design Lab, School of Advanced Manufacturing & Robotics, Peking University
+    - name: Languages
+      value: English, Urdu, Pashto
+
+- title: Research Interests
+  type: list
+  contents:
+    - Soft robotics, robotic manipulation, marine robotics, applied control systems, and reinforcement learning.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Peking University, China
-      year: 2027
+    - title: Ph.D., Mechanics
+      institution: Peking University, Beijing, China
+      year: 2024 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Thesis: <i>Hyper-Nonlinear Underwater Manipulation: Bio-Inspired Optimal Design, Modeling, and ML-Enabled Control</i> (tentative)"
+        - "Advisor: Guangming Xie"
+        - "Area of study: robotics and intelligent machines"
+    - title: M.S., Mechanical Engineering
+      institution: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology, Swabi, Pakistan
+      year: 2019 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - "Thesis: <i>Modeling and Control of a Micro ROV</i>"
+        - "Advisor: Sarvat Mushtaq Ahmad"
+        - "Area of study: dynamics and controls"
+    - title: B.S., Mechanical Engineering
+      institution: University of Engineering and Technology, Peshawar, Pakistan
+      year: 2015 - 2019
+      description:
+        - Magna cum Laude, with Honors in Engineering
+        - "Thesis: <i>Indigenous Development of a Prototype Model for Solar Energy Storage</i>"
+        - "Advisor: Mohammad Abdul Aziz Irfan"
+        - "Area of study: energy storage and power plants"
 
-- title: Experience
+- title: Academic Appointments
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Lecturer
+      institution: Air University, Islamabad, Pakistan
+      year: 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - On leave since January 2024
+        - Institute of Avionics & Aeronautics (IAA)
+        - Department of Mechanical & Aerospace Engineering (DMAE), teaching faculty
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Doctoral Student
+      institution: Intelligent Biomimetic Design Lab (IBDL), Peking University, Beijing, China
+      year: 2024 - present
+      description:
+        - "Mentor: Prof. Guangming Xie"
+        - "<i>Hyper-Nonlinear Underwater Manipulation: Bio-Inspired Optimal Design, Modeling, and ML-Enabled Control</i>"
+    - title: Research Assistant
+      institution: Interdisciplinary Research Center on Intelligent Manufacturing & Robotics, KFUPM, Dhahran, Saudi Arabia
+      year: 2024
+      description:
+        - "Mentors: Dr. Sarvat Mushtaq Ahmad, Dr. Muhammad Faizan Mysorewala"
+        - "<i>Tank Cleaning and Recycling with Robot</i>, funded by Aramco"
+        - "<i>Autonomous Underwater Robot for Deep Sea Missions</i>, funded by IRC-IMR"
+    - title: Research Assistant
+      institution: Vibrational Dynamics and Control System Lab, GIK Institute, Swabi, Pakistan
+      year: 2019 - 2021
+      description:
+        - "Mentor: Prof. Sarvat Mushtaq Ahmad"
+        - "<i>Design and development of a remotely operated underwater vehicle (ROV) for underwater structure monitoring and marine applications</i>, funded by the Pakistan Higher Education Commission (NRPU)"
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Lecturer
+      institution: Air University, Islamabad, Pakistan
+      year: 2022 - 2024
+      description:
+        - Department of Mechanical & Aerospace Engineering
+        - "ME-313 Control Engineering &mdash; course & lab instructor"
+        - "ME-480 Artificial Intelligence with Python &mdash; course & lab instructor"
+        - "ME-222 Engineering Dynamics &mdash; course & lab instructor"
+        - "ME-349 Computer Aided Engineering &mdash; course & lab instructor"
+        - "ME-146 Engineering Drawing & Graphics/AutoCAD &mdash; lab instructor"
+        - "EE-206 Basic Electrical and Electronics Engineering &mdash; lab instructor"
+        - Course advisor, Fall 2019 batch
+    - title: Lab Engineer
+      institution: National University of Sciences and Technology, Islamabad, Pakistan
+      year: 2022
+      description:
+        - School of Mechanical & Manufacturing Engineering
+        - "EE-227 Electronics Engineering Lab &mdash; lab instructor"
+        - "ME-109 Engineering Drawing Lab &mdash; teaching assistant"
+    - title: Graduate Teaching Assistant
+      institution: GIK Institute of Engineering Sciences and Technology, Swabi, Pakistan
+      year: 2019 - 2021
+      description:
+        - Faculty of Mechanical Engineering
+        - "ME-446 Mechanical Vibration and Control System Lab &mdash; lab instructor"
+        - "ME-445 Thermodynamics and Fluid Mechanics II Lab &mdash; lab instructor"
+        - "ME-244 Statics and Dynamics Lab &mdash; lab instructor"
+        - "ME-315 Mechanical Vibrations &mdash; teaching assistant"
+        - "ME-361 Design of Machine Elements &mdash; teaching assistant"
+        - "ME-464 System Dynamics and Control &mdash; grader"
+
+- title: Advising and Mentoring
+  type: time_table
+  contents:
+    - title: Undergraduate Honors Theses
+      year: 2023 - 2024
+      description:
+        - "<i>Modelling and Control of a Robotic Arm Manipulator</i> &mdash; advisor"
+        - "<i>Path Planning and Motion Control of an Autonomous Ground Vehicle (AGV)</i> &mdash; advisor"
+        - "<i>Design and Analysis of Controller for Fertilization</i> &mdash; co-advisor"
+        - "<i>Design and Development of a Fully Automatic Energy Efficient Egg Incubation Solution</i> &mdash; co-advisor"
+    - title: Undergraduate Honors Theses
+      year: 2022 - 2023
+      description:
+        - "<i>Intelligent Traffic Signal Controller Based Regulation System</i> &mdash; advisor"
+        - "<i>Optimization of the Response Parameters by Altering Process Parameters using Taguchi Technique in Wire Electric Discharge Machining (EDM)</i> &mdash; co-advisor"
+        - "<i>Design, Analysis and Mock-up Fabrication of a Magnetic Levitation System for Transport Applications</i> &mdash; co-advisor"
+
+- title: Professional Service
+  type: nested_list
+  contents:
+    - title: Referee Service
+      items:
+        - IEEE Access
+        - HardwareX
+        - Transactions on Maritime Science
+        - "Gazi University Journal of Science, Part A: Engineering and Innovation (GUJSA)"
+        - Workshop on Manipulation Robustness (ICRA 2026)
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2026
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - ZUKOnnect Fellowship, Zukunftskolleg, University of Konstanz &mdash; competitive fellowship for early-career researchers from Africa, Asia, and Latin America
+    - year: 2019
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Magna cum Laude, with Honors in Engineering, UET Peshawar
