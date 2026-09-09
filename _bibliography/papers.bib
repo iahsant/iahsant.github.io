@@ -7,7 +7,7 @@
   author={Tanveer, Ahsan and Hamza, Muhammad and Afridi, Rahdar Hussain and Afridi, Waqar Hussain and Wang, Chen and Lu, Zongqing and Xie, Guangming},
   abstract={Actuator loss of effectiveness breaks the action-to-motion map assumed by learned robot policies, yet the fault is rarely measured directly at deployment. This letter introduces an explicit diagnosis–recovery interface for post-training actuator degradation under output feedback. A trajectory-level identifier estimates the continuous actuator-effectiveness factor ηt from recent observation-action history, and a task-specific recovery module acts on this estimate while the nominal policy remains frozen. The interface supports fault-conditioned model predictive control (MPC) for tendon-driven continuum robot (TDCR) reaching and residual-policy recovery for locomotion benchmarks. On TDCR reaching, the identifier attains a mean absolute error of 0.028 and the fault-conditioned MPC reduces terminal error by up to 38.0%, whereas policy conditioning and scalar gain compensation remain near the faulted baseline. On HalfCheetah, Ant, and Humanoid, diagnosis-conditioned residual policies improve return by up to 39.5%, 28.0%, and 53.6%. Across all platforms, recovery is determined not by estimation accuracy alone but by pairing the estimate with a controller able to exploit the remaining actuation authority.},
   journal={IEEE Robotics and Automation Letters},
-  selected={true},
+  selected={false},
   year={2026}
 }
 
@@ -19,7 +19,25 @@
   abstract={Soft fluidic actuators (SFAs) are promising for underwater manipulation and embodied soft systems, but they are often modeled and designed using structural finite element analysis that neglects coupled fluid loading, which can bias the pressure–deformation response that the design process relies on. This paper introduces a two-way external fluid–structure interaction (FSI) simulation for geometric optimization of underwater SFAs, combining two-way coupled simulation with surrogate response surfaces and constrained search over a parameterized design space. We first quantify the modeling gap by comparing baseline structural FEM predictions with two-way external-FSI predictions for the same geometry. We then train a surrogate non-parametric regression (NPR) response surfaces from a broad design-of-experiments dataset and perform two optimizations, one driven by FEM-only data and one driven by FSI data, followed by high-fidelity two-way coupled verification. Experimental validation show that the resulting FSI optimum achieves similar bending performance at 30% lower pressure relative to the FEM-optimum while increasing bending angle by 46%. System-level tests confirm these gains transfer to practice, with pull-force measurements showing a 58% mean improvement in retention force and a fish-like body with paired actuators achieving 25% higher forward velocity.},
   journal={ASME/IEEE Transactions on Mechatronics},
   year={2026},
-  selected={true}
+  selected={false}
+}
+
+@Article{ahsan2026pressure,
+  bibtex_show={true},
+  abbr={In prep.},
+  title={Learning Pressure-Conditioned Latent Energy Dynamics of an Embedded Submerged Soft Actuator},
+  author={Tanveer, Ahsan and Hamza, Muhammad and Xie, Guangming},
+  journal={IEEE Robotics and Automation Letters},
+  year={2026}
+}
+
+@inproceedings{ahsan2026worse,
+  bibtex_show={true},
+  abbr={In prep.},
+  title={Worse Than the Worst Demonstration: Pooling Collapse in Action-Chunked Policy Learning},
+  author={Tanveer, Ahsan and Xie, Guangming},
+  booktitle={Workshop on Bimanual Dexterous Tool Use: From Contact-Rich Execution to Generalist Robot Intelligence (CoRL 2026)},
+  year={2026}
 }
 
 @inproceedings{TanveerA-RSS-26,
@@ -34,7 +52,8 @@ residual-only predictors while remaining stable across all tested trajectories. 
   preview={graphicaAbstract.png},
   year={2026},
   pdf={https://www.roboticsproceedings.org/rss22/p106.pdf},
-  html={https://www.roboticsproceedings.org/rss22/p106.html}
+  html={https://www.roboticsproceedings.org/rss22/p106.html},
+  website={https://anchored-rollouts.github.io/}
 }
 
 @inproceedings{tanveer2026toward,
@@ -67,7 +86,8 @@ residual-only predictors while remaining stable across all tested trajectories. 
   html={https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.202501085},
   pdf={emg.pdf},
   google_scholar_id={KlAtU1dfN6UC},
-  doi={10.1002/aisy.202501085}
+  doi={10.1002/aisy.202501085},
+  website={https://emg-fish-kinematics.github.io/}
 }
 
 @article{hamza2026geometric,
@@ -101,7 +121,8 @@ residual-only predictors while remaining stable across all tested trajectories. 
   pdf={biorob.pdf},
   preview={tocfig.png},
   google_scholar_id={MXK_kJrjxJIC},
-  doi={10.1002/aisy.202501117}
+  doi={10.1002/aisy.202501117},
+  website={https://bio-to-robot.github.io/}
 }
 
 @Article{ahmad2025narx,
