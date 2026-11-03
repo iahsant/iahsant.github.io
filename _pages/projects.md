@@ -89,12 +89,77 @@ horizontal: false
   </div>
 </div>
 
+<h4 class="mt-4">Current Work</h4>
+
+<div class="card research-card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Actuator-Effectiveness Estimation for Policy Recovery</h5>
+    <p class="card-text">Actuator loss of effectiveness breaks the action-to-motion map assumed by learned robot policies, yet the fault is rarely measured directly at deployment. This work introduces an explicit <b>diagnosis–recovery interface</b> in which a trajectory-level identifier estimates a continuous actuator-effectiveness factor from recent observation–action history, and a task-specific recovery module acts on this estimate while the nominal policy remains frozen. On tendon-driven continuum robot reaching, <b>fault-conditioned MPC</b> reduces terminal error by up to <b>38.0%</b>, and on locomotion benchmarks diagnosis-conditioned residual policies improve return by up to <b>53.6%</b>.</p>
+    <div class="research-pub">
+      <span class="research-venue">Journal article</span><span class="research-status">Under review</span>
+      <div class="research-paper">Explicit Actuator-Effectiveness Estimation for Post-Training Robot Policy Recovery</div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="card research-card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">World Models for Robot Swarms</h5>
+    <p class="card-text">This project develops a <b>world model</b> for swarms of camera-equipped Raspberry Pi differential-drive robots, building on onboard neighbor position estimation. The model is implemented as a <b>spiking neural network</b> compact enough to run on every robot and serves as the basis for decentralized control.</p>
+    <div class="research-pub">
+      <span class="research-venue">MPI of Animal Behavior</span><span class="research-status">Ongoing</span>
+      
+      
+    </div>
+  </div>
+</div>
+
+<div class="card research-card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">System Identification of Fish Responses to a Virtual Conspecific</h5>
+    <p class="card-text">This project models how zebrafish respond to a virtual fish whose heading undergoes step changes from 15° to 180° in both turning directions. Following a <b>stimulus–response system identification</b> approach, it seeks an interpretable model of the turning response that yields biological insight and supports a controller that shapes the virtual fish path so that real fish track it in <b>closed loop</b>.</p>
+    <div class="research-pub">
+      <span class="research-venue">MPI of Animal Behavior</span><span class="research-status">Ongoing</span>
+      
+      
+    </div>
+  </div>
+</div>
 <h4 class="mt-4">Collaborative Work</h4>
-<div class="projects">
-  {% assign other_projects = site.projects | where: "category", "research" | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in other_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
+
+<div class="card research-card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Proprioception from Energy-Harvesting Transducers</h5>
+    <p class="card-text">This work investigates whether <b>piezoelectric transducers</b> embedded in a passive soft hydrofoil for energy harvesting can also provide proprioception without dedicated sensing elements. Using only the embedded PVDF signals, a <b>bidirectional LSTM</b> reconstructs the dynamic midline on held-out flow conditions with <b>0.68 mm RMSE</b> and R² = 0.83.</p>
+    <div class="research-pub">
+      <span class="research-venue">ICRA 2027</span><span class="research-status">Under review</span>
+      <div class="research-paper">The Harvester as Proprioceptor: Midline Pose Estimation of a Passive Soft Foil in Flow</div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="card research-card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Bio-to-Robot Transfer of Fish Sensorimotor Dynamics</h5>
+    <p class="card-text">An interpretable <b>ARX system identification</b> approach maps bidirectionally between EMG and kinematics in freely swimming koi across laminar, Kármán vortex, and reverse Kármán vortex flows, and its generalization is tested on a <b>robotic fish</b>.</p>
+    <div class="research-pub">
+      <span class="research-venue">Advanced Intelligent Systems 2025</span><span class="research-status">Published</span>
+      <div class="research-paper">Bio-to-Robot Transfer of Fish Sensorimotor Dynamics via Interpretable Model</div>
+      <div class="research-links"><a href="{{ '/assets/pdf/biorob.pdf' | relative_url }}">PDF</a><a href="https://bio-to-robot.github.io/">Project</a><a href="https://doi.org/10.1002/aisy.202501117">DOI</a></div>
+    </div>
+  </div>
+</div>
+
+<div class="card research-card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">EMG-Driven Telemetry for Freely Swimming Fish</h5>
+    <p class="card-text">A custom <b>16-channel telemetry unit</b> records intramuscular EMG synchronized with kinematics in freely swimming fish, and the resulting framework decodes both <b>body pose</b> and <b>flow conditions</b> from the EMG signals.</p>
+    <div class="research-pub">
+      <span class="research-venue">Advanced Intelligent Systems 2026</span><span class="research-status">Published</span>
+      <div class="research-paper">EMG-Driven Telemetry and Inference System for Fish: Pose Reconstruction and Flow Sensing</div>
+      <div class="research-links"><a href="{{ '/assets/pdf/emg.pdf' | relative_url }}">PDF</a><a href="https://emg-fish-kinematics.github.io/">Project</a><a href="https://doi.org/10.1002/aisy.202501085">DOI</a></div>
+    </div>
   </div>
 </div>
