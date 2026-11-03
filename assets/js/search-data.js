@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "news-our-paper-on-non-linear-modeling-of-heave-dynamics-for-robust-control-of-an-underactuated-rov-is-now-out-in-ocean-engineering",
           title: 'Our paper on non-linear modeling of heave dynamics for robust control of an...',
           description: "",
