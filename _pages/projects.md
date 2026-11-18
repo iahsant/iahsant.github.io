@@ -18,7 +18,7 @@ horizontal: false
 .research-media { display: flex; align-items: center; justify-content: center; }
 .research-media.dark { background: #000; }
 .research-media video, .research-media img { width: 100%; display: block; }
-.research-media video.research-square { width: auto; max-width: 100%; max-height: 360px; padding: .5rem; }
+.research-media video.research-square { width: auto; max-width: 100%; max-height: 250px; padding: .5rem; }
 .research-media img { max-height: 360px; object-fit: contain; padding: .5rem; }
 .research-media .embed-responsive { width: 100%; }
 </style>
