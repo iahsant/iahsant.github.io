@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-talks",
+          title: "talks",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "news-our-paper-on-non-linear-modeling-of-heave-dynamics-for-robust-control-of-an-underactuated-rov-is-now-out-in-ocean-engineering",
           title: 'Our paper on non-linear modeling of heave dynamics for robust control of an...',
           description: "",
@@ -62,6 +69,11 @@ ninja.data = [{
           description: "RSS 2026 project page for stable multi-step prediction of soft robotic systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/equilibrium-anchored-rollouts/";
+            },},{id: "talks-university-day",
+          title: 'University Day',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026-11-20-university-day/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
